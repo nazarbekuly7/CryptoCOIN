@@ -42,7 +42,7 @@ export const Navbar = () => {
       <NavbarContainer>
         <NavIcon to='/' onClick={closeMobileMenu}>
           <LogoIcon />
-            <LogoText>E</LogoText> COIN
+            <LogoText>Crypto</LogoText> COIN
         </NavIcon>
         <MobileIcon onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}

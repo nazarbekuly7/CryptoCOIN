@@ -104,7 +104,7 @@ export const CardContainer = styled.div`
     padding: 22px;
     margin: 10px 0;
     width: 170px;
-    height: 170px;
+    height: 200px;
     border-radius: 24px;
     border: 1px solid #d3d3d3;
     box-shadow: rgba(0 0 0 / 12%) 0px 8px 24px;

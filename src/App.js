@@ -6,6 +6,7 @@ import { Home } from "./pages/home-page/Home";
 import { Featured } from "./pages/features/Featured"
 import { SignUp } from "./pages/sign-up/SignUp";
 import { SignIn } from "./pages/sign-up/SignIn";
+import { Footer } from "./components/footer/Footer";
 
 function App () {
 
@@ -22,9 +23,9 @@ function App () {
         <Route path='/sign-up' element={<SignUp />} />
         <Route path='/sign-in' element={<SignIn />} />
       </Routes>
+      <Footer />
     </>
   );
 }
-/*sadsa */
 
 export default App;
